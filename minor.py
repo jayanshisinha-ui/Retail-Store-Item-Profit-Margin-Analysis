@@ -6,7 +6,7 @@ import seaborn as sns
 df = pd.read_csv("retail_profit_margin.csv")
 print(df)
 
-# formula for calculating the profit margin 
+# Calculating the profit margin 
 df["Profit_Margin"] = ((df["Selling_Price"] - df["Cost_Price"])  / df["Cost_Price"]) * 100
 print(df[["Item_Name", "Profit_Margin"]])
 
