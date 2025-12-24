@@ -23,13 +23,15 @@ std_profit = category_groups["Profit_Margin"].std()
 print("Standard Deviation by Category:\n", std_profit)
 
 #Combined Mean & Standard Deviation Table
-stats_table = category_groups["Profit_Margin"].agg(["mean", "std"])
+stats_table = pd.DataFrame()
+stats_table['Mean']=mean_profit
+stats_table['Standard Deviation']=std_profit
 print(stats_table)
 
 #Box Plot for Profit Margin
 plt.figure(figsize=(8,5))
 sns.boxplot(x='Category', y='Profit_Margin', data=df)
-plt.title('Profit Margin Distribution by Category')
+plt.title('Retail Store Item Profit Margin Analysis by Category')
 plt.xlabel('Product Category')
 plt.ylabel('Profit Margin (%)')
 plt.show()
