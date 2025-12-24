@@ -1,0 +1,21 @@
+Item_ID,Item_Name,Category,Cost_Price,Selling_Price
+1,Rice Bag,Grocery,850,1000
+2,Wheat Flour,Grocery,400,460
+3,Cooking Oil,Grocery,900,1050
+4,Sugar Pack,Grocery,300,350
+5,Tea Powder,Grocery,450,520
+6,Shampoo,Personal Care,180,250
+7,Soap,Personal Care,40,60
+8,Toothpaste,Personal Care,90,140
+9,Face Cream,Personal Care,220,320
+10,Hair Oil,Personal Care,150,220
+11,Notebook,Stationery,60,90
+12,Pen Pack,Stationery,40,65
+13,School Bag,Stationery,900,1200
+14,Calculator,Stationery,500,650
+15,Water Bottle,Stationery,120,180
+16,LED Bulb,Electronics,220,300
+17,Headphones,Electronics,700,950
+18,Power Bank,Electronics,900,1250
+19,USB Cable,Electronics,120,200
+20,Smart Watch,Electronics,1800,2400
