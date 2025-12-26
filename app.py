@@ -36,7 +36,7 @@ def analyze_profit_margin(file):
 
 
 # Gradio UI
-ui = gr.Interface(
+ui =gr.Interface(
     fn=analyze_profit_margin,
     inputs=gr.File(label="Upload Retail Profit CSV"),
     outputs=[
