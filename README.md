@@ -38,3 +38,5 @@ Making business decisions using data instead of guesswork
 
 Conclusion
 The project clearly demonstrates how statistics and visualization can help solve a real business problem. By using Python and Pandas, we were able to easily calculate, compare, and understand profit margin data. This makes the project both practical and educational.
+
+https://jayanshisinha-ui.github.io/Retail-Store-Item-Profit-Margin-Analysis/
